@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:charcoal"
+        }
+    ],
+    "result": {
+        "item": "tidbits:charcoal_nugget",
+        "count": 9
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:flint"
+    },
+    "result": "tidbits:quartz_shard",
+    "count": 3
+}
