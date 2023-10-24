@@ -3,13 +3,13 @@
 	"id": "tidbits",
 	"version": "${version}",
 	"name": "TidBits",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds a few progression and nice to have items.",
 	"authors": [
-		"Me!"
+		"DerpDerpling"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/DerpDerpling/TidBits",
+		"sources": "https://github.com/DerpDerpling/TidBits"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/tidbits/icon.png",
@@ -24,11 +24,8 @@
 	},
 	"depends": {
 		"fabricloader": ">=0.14.23",
-		"minecraft": "23w42a",
+		"minecraft": ">=1.20-",
 		"java": ">=17",
 		"fabric-api": "0.90.4+1.20.3"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
