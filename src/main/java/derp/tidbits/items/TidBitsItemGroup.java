@@ -11,7 +11,7 @@ import derp.tidbits.TidBits;
 
 public class TidBitsItemGroup {
     public static final ItemGroup TIDBITS_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(TidBits.MOD_ID, "tidbits"),
+            Identifier.of(TidBits.MOD_ID, "tidbits"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.tidbits"))
                     .icon(() -> new ItemStack(TidBitsItems.QUARTZ_SHARD)).entries((displayContext, entries) -> {
                         entries.add(TidBitsItems.QUARTZ_SHARD);
